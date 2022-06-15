@@ -1,3 +1,2 @@
-*.swo
-*.swp
-*.swn
+/.README.md.swp 
+.README.md.swp /
