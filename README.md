@@ -18,14 +18,14 @@ Setup postgresql on your machine by following the steps from this [site](https:/
 
 After a successful installation and configuration, you need to create a role(i.e user) and a database
 to create your tables.
-Run below commands to get started:
+Run the following commands to get started:
 
 - `sudo su - postgress`: To start postgresql
-- `createuser -P username`: To create a username (enter any name of your choice);
+- `createuser -P username`: To create a username(enter any name of your choice);
 create a password and confirm it at the prompt terminal;
-- `createdb dbname -O username`: To create the database under the authority of the usename used
+- `createdb dbname -O username`: To create database under the authority of the usename used
 - `exit` to logout from the postgresql
-- `psql -h 127.0.0.1 -U username dbname`: To set port for your db to run and it would open up your db for you where you can start create tables and operations on you db;
+- `psql -h 127.0.0.1 -U username dbname`: To set port for your db to run on and it would open up your db where you can start creating tables and performing operations on you db;
 
 ### Useful postgres commands
 
