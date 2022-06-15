@@ -14,7 +14,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ## Set Up
 
-Setup postgresql on your machine by following the steps from this [site]('https://www.linuxcapable.com/how-to-install-and-configure-postgresql-on-ubuntu-20-04/');
+Setup postgresql on your machine by following the steps from this [site]('https://www.linuxcapable.com/how-to-install-and-configure-postgresql-on-ubuntu-20-04/') or this [site]('https://techviewleo.com/how-to-install-postgresql-database-on-ubuntu/').
 
 After a successful installation and configuration, you need to create a role(i.e user) and a database
 to create your tables.
