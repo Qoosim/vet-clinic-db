@@ -14,18 +14,18 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ## Set Up
 
-Setup postgresql on your machine by following the steps from this [site]('https://www.linuxcapable.com/how-to-install-and-configure-postgresql-on-ubuntu-20-04/') or this [site]('https://techviewleo.com/how-to-install-postgresql-database-on-ubuntu/').
+Setup postgresql on your machine by following the steps from this [site](https://www.linuxcapable.com/how-to-install-and-configure-postgresql-on-ubuntu-20-04/) or this [site](https://techviewleo.com/how-to-install-postgresql-database-on-ubuntu/).
 
 After a successful installation and configuration, you need to create a role(i.e user) and a database
 to create your tables.
 Run below commands to get started:
 
-`sudo su - postgress` to start postgresql
-`createuser -P username` to create a username (enter any name of your choice);
+- `sudo su - postgress`: To start postgresql
+- `createuser -P username`: To create a username (enter any name of your choice);
 create a password and confirm it at the prompt terminal;
-`createdb dbname -O username` to create the database under the authority of the usename used
-`exit` to logout from the postgresql
-`psql -h 127.0.0.1 -U username dbname` to set port for your db to run and it would open up your db for you where you can start create tables and operations on you db;
+- `createdb dbname -O username`: To create the database under the authority of the usename used
+- `exit` to logout from the postgresql
+- `psql -h 127.0.0.1 -U username dbname`: To set port for your db to run and it would open up your db for you where you can start create tables and operations on you db;
 
 ### Useful postgres commands
 
